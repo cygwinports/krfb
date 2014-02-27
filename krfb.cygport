@@ -1,0 +1,8 @@
+inherit kde4
+
+NAME="krfb"
+VERSION=4.11.5
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="KDE X11 VNC server"
+DESCRIPTION="Part of the KDE networking suite"

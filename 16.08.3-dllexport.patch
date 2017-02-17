@@ -1,0 +1,13 @@
+This is part of the executable, not libkrfbprivate.
+
+--- origsrc/krfb-16.08.3/krfb/framebuffermanager.h	2016-10-24 07:06:02.000000000 -0500
++++ src/krfb-16.08.3/krfb/framebuffermanager.h	2017-02-02 11:01:07.882166300 -0600
+@@ -35,7 +35,7 @@
+ class FrameBufferPlugin;
+ class KPluginFactory;
+ 
+-class KRFBPRIVATE_EXPORT FrameBufferManager : public QObject
++class FrameBufferManager : public QObject
+ {
+     Q_OBJECT
+     friend class FrameBufferManagerStatic;

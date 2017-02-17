@@ -1,10 +1,10 @@
 inherit kde4
 
 NAME="krfb"
-VERSION=15.04.3
+VERSION=16.08.3
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="KDE X11 VNC server"
 DESCRIPTION="Part of the KDE networking suite"
 
-REQUIRES="kde-runtime"
+PATCH_URI="16.08.3-dllexport.patch"

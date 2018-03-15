@@ -1,7 +1,7 @@
 inherit kde4
 
 NAME="krfb"
-VERSION=17.08.3
+VERSION=17.12.3
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="KDE X11 VNC server"
